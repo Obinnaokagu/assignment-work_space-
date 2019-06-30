@@ -1,0 +1,826 @@
+* {
+    padding: 0;
+    margin: 0;
+    outline: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.stack {
+    color: rgb(49, 47, 47);
+    font-family: Arial;
+    font-size: 20px;
+}
+
+.overflow {
+    color: black;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.navbar {
+    background: rgb(240, 235, 236);
+    width: 100%;
+    height: 60px;
+    border-top-style: solid;
+    border-top-color: orangered;
+    display: flex;
+    justify-content: space-around;
+}
+
+.navbar a {
+    text-decoration: none;
+}
+
+.navbar-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+}
+
+
+.search {
+    width: 45em;
+    height: 30px;
+    margin-left: 5px;
+    padding-left: 10px;
+    border-radius: 4px;
+    border: 1px solid black;
+}
+
+.navbar-icon {
+    color: orange;
+    font-size:3em;
+    margin-left: 10px;
+    margin-right: 5px;
+}
+
+.navbar-search {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.navbar-content-icon {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.mx-5 {
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+.cursor-pointer {
+    cursor: pointer;
+}
+
+span {
+    text-transform: capitalize;
+}
+
+.sign-up {
+    background: rgb(60, 66, 153);
+    font-size: 15px;
+    border: 1px solid black;
+    padding: 8px;
+    border-radius: 5px;
+}
+
+.sign-up a {
+    color: white;
+}
+
+.sign-up:hover,
+.sign-up:focus {
+    background: green;
+}
+
+.log-in {
+    padding: 8px;
+    background: rgb(143, 216, 133);
+    border: 0;
+}
+
+.main {
+    width: 80%;
+}
+
+.aside {
+    width: 20%;
+    height: 500px;
+}
+ 
+ .aside-content {
+     padding: 10px;
+ }
+    
+
+.aside-home {
+    padding: 10px;
+    margin-left: 5px;
+}
+
+.aside-public {
+    padding: 5px;
+}
+
+.aside-stack {
+    background: rgb(179, 182, 182);
+    padding: 5px;
+    margin-left: 2px;
+    /* border: 1px solid black; */
+    border-right-style: solid 2px;
+    border-right-color: brown;
+}
+
+.aside-tag {
+    padding: 8px;
+}
+
+.aside-user {
+    padding: 8px;
+}
+
+.aside-job {
+    padding: 6px;
+}
+
+.aside-team {
+    border: 2px solid black;
+}
+
+.teams-flex {
+    display: flex;
+}
+
+.team-a {
+    padding: 6px;
+}
+.teams {
+    padding: 5px;
+}
+
+.learn-more {
+    padding: 10px;
+    margin-left: 10px;
+    margin-bottom: 10px;
+    background-color: white;
+    border: 1px solid blue;
+    border-radius: 5px;
+    color: blue;
+}
+
+.learn-more:hover,
+.learn-more:focus {
+    background: rgb(168, 168, 173);
+    transition: all.1s ease-in;
+
+}
+
+.main-head {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+h2 {
+    font-size: 26px;
+    padding: 25px;
+
+}
+
+.aside-main-flex {
+    display: flex;
+}
+
+.main-head-ask{
+    border: 1px solid white;
+    padding: 5px;
+    background: rgb(9, 102, 55);
+    color: white;
+    border-radius: 5px;
+    height: 40px;
+}
+
+.main-head-ask:hover,
+.main-head-ask:focus {
+    background-color: blue;
+}
+
+.container-section {
+    width: 60%;
+}
+
+.main-section {
+    background: rgb(115, 38, 131);
+    margin-left: 30px;
+    padding: 1em;
+}
+
+.main-icon {
+    color: white;
+    font-size: 2.5em;
+    display: flex;
+    margin-left: 1em;
+}
+
+.main-stack {
+    font-family: Arial;
+    font-size: 20px;
+    color: white;
+}
+
+.main-overflow {
+    font-weight: bold;
+    font-size: 20px;
+    color: rgb(216, 197, 201);
+}
+
+.section-container-flex {
+    display: flex;
+    text-decoration: none;
+    justify-content: center;
+    align-items: center;
+    padding: 5px;
+}
+
+.more-way {
+    color: white;
+    margin-left: 10px;
+    font-size: 1em;
+}
+
+
+.main-p {
+    margin-top: 1em;
+    margin-left: 3.8em;
+}
+
+.main-angle {
+    font-size: 20px;
+    margin-left: 25px;
+}
+
+.css-modules {
+    background: rgb(177, 182, 182);
+    padding: 5px;
+    margin-bottom: 10px;
+
+}
+.angle-css {
+    margin-left: 10px;
+    margin-top: 10px;
+    word-break: break-word;
+}
+
+.main-angle-flex {
+    display: flex;
+}
+
+
+
+.section {
+    background: rgb(124, 128, 128);
+    padding: 30px;
+}
+
+.webpack {
+    background: pink;
+    padding: 8px;
+    margin-bottom: 10px;
+    border-left: 2px solid orange;
+}
+
+.section-base {
+    margin-left: 3em;
+    display: flex;
+}
+
+.section-java {
+    padding: 5px;
+    background: rgb(183, 189, 189);
+    margin-top: 10px;
+    border-radius: 4px;
+
+}
+
+.section-npm {
+    padding: 5px;
+    margin-top: 10px;
+    background: rgb(196, 201, 201);
+    border-radius: 4px;
+    margin-left: 5px;
+}
+
+.section-web {
+    padding: 5px;
+    background: rgb(209, 216, 216);
+    border-radius: 4px;
+    margin-left: 5px;
+    margin-top: 10px;
+}
+
+.section-share {
+    margin-left: 3em;
+    margin-top: 3em;
+}
+
+.section-share :hover,
+.section-share :focus {
+    background: rgb(10, 88, 66);
+    transition: all .2s ease-in;
+}
+
+.edited {
+    color: blue;
+    text-decoration: none;
+    font-size: 15px;
+}
+
+img {
+    margin: 0;
+    padding: 0;
+    height: 50px;
+}
+.deceze {
+    color: blue;
+    text-decoration: none;
+    font-size: 15px;
+}
+
+.zero {
+    color: rgb(52, 54, 54);
+    font-size: 15px;
+}
+
+.zero-1 {
+    font-size: 30px;
+    color: coral;
+}
+
+.zero-2 {
+    font-size: 15px;
+}
+
+.zero-3 {
+    font-size: 30px;
+    color: rgb(82, 85, 85);
+}
+
+.zero-4 {
+    font-size: 15px;
+}
+
+.zero-5 {
+    color: darkgoldenrod;
+    font-size: 30px;
+}
+
+.zero-6 {
+    font-size: 15px;
+}
+
+.section-edited-flex {
+    display: flex;
+}
+
+.edited-flex {
+    display: flex ;
+    flex-direction: column;
+    background: yellow;
+}
+
+.class-zero {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.background {
+    background: red;
+}
+
+.float-right {
+    float: right;
+    margin: 10px;
+}
+
+.clear-float-both {
+    clear: both;
+}
+
+.css-might {
+    margin-left: 3.5em;
+    margin-top: 5px;
+}
+
+.clear-sorry {
+    text-decoration: none;
+    color: blue;
+}
+
+.time {
+    color: rgb(110, 112, 112);
+}
+
+.suggest {
+    margin-left: 3.5em;
+    margin-top: 5px;
+}
+
+.extract {
+    margin-left: 3em;
+    margin-top: 5px;
+}
+
+.sorry {
+    margin-top: 5px;
+    margin-left: 3.5em;
+}
+
+.extract-flex  {
+    display: flex;
+    align-items: center;
+}
+
+.comment {
+    margin-left: 2em;
+    margin-top: 10px;
+}
+
+.comment:hover,
+.comment:focus {
+    color: blue;
+    transition: all .1s ease-in;
+}
+
+.active {
+    font-size: 15px;
+    display: flex;
+
+}
+
+.answer {
+    font-weight: bold;
+    margin-top: 30px;
+    margin-left: 20px;
+}
+
+.active-all {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.volts-p {
+    margin-left: 10px;
+}
+
+.oldest-p {
+    margin-left: 10px;
+}
+
+/* ---------right aside stuff----------------- */
+
+.aside-right {
+    margin-left: 2em;
+    width: 40%;
+    padding-right: 50px;
+}
+
+.ask-p {
+    color: rgb(113, 117, 117);
+    margin-bottom: 1em;
+    margin-top: 10px;
+}
+
+.view-p {
+    color: rgb(133, 117, 117);
+    margin-bottom: 1em;
+}
+
+.active-p {
+    margin-bottom: 1em;
+    color: rgb(133, 117, 117);
+}
+
+.time-p {
+    color: rgb(52, 54, 54);
+}
+
+
+.container-section-aside-right {
+    display: flex;
+}
+
+.aside-meta {
+    padding: 10px;
+    color: black;
+    border: 1px solid orchid;
+    background: rgb(216, 176, 162);
+}
+
+.aside-unicorn {
+    padding: 10px;
+    color: blue;
+    background: pink;
+}
+
+.aside-meta-unicorn {
+    border: 1px plum solid;
+}
+
+.aside-stack-right {
+    font-family: arial;
+    font-size: 1em;
+}
+
+.aside-overflow-right {
+    font-family: arial;
+    font-weight: bold;
+
+}
+
+.stack-right {
+    color: white;
+    font-size: 2em;
+}
+
+.aside-stack-flex {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 2em;
+    color: white;
+}
+
+.aside-option-flex {
+    display: flex;
+    margin-top: 2em;
+}
+
+.aside-option {
+    padding: 20px;
+    color: white;
+    margin-left: 10px;
+
+}
+
+.aside-stack-option {
+    background: rgb(148, 38, 148);
+    padding: 20px;
+    margin-top: 20px;
+  
+
+}
+
+.work-content {
+    background: orange;
+    padding: 20px;
+    margin-top: 10px;
+    margin-bottom: 30px;
+}
+
+.aside-work {
+    color: white;
+    font-size: 20px;
+}
+
+.aside-senior {
+    color: blue;
+    text-decoration: none;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+.aside-daliy {
+    color: rgb(105, 102, 102);
+    margin-top: 5px;
+    font-size: 15px;
+    margin-top: 5px;
+    margin-left: 10px;
+}
+
+.daliy-icon {
+    font-size: 10px;
+}
+
+.aside-money {
+    color: green;
+    margin-top: 5px;
+    font-size: 13px;
+    margin-left: 10px;
+}
+
+.remote {
+    color: orange;
+    font-size: 12px;
+    margin-left: 5px;
+}
+
+.aside-rubby {
+    background: rgb(183,189,189);
+    color: black;
+    margin-left: 10px;
+    padding: 5px;
+    border-radius: 4px;
+}
+
+.aside-react {
+    background: rgb(183,189,189);
+    color: black;
+    margin-left: 5px;
+    padding: 5px;
+    border-radius: 4px;
+}
+
+.rubby-react-flex {
+    display: flex;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.aside-java {
+    margin-left: 10px;
+    background: rgb(183, 189,189);
+    color: black;
+    padding: 5px;
+    border-radius: 4px;
+}
+
+.aside-python {
+    margin-left: 5px;
+    background: rgb(183,189,189);
+    color: black;
+    padding: 5px;
+    border-radius: 4px;
+}
+
+.java-python-flex {
+    display: flex;
+    margin-top: 5px;
+    margin-bottom: 10px;
+}
+
+.aside-remote {
+    padding: 10px;
+    font-size: 15px;
+}
+
+.aside-broswer {
+    color: white;
+    background: rgba(39, 140, 207, 0.979);
+    border: 1px solid white;
+    padding: 8px;
+    border-radius: 5px;
+    margin-left: 10px;
+    margin-bottom: 5px;
+}
+
+.aside-broswer:hover,
+.aside-broswer:focus {
+    background: blue;
+    transition: all .1s ease-in;
+}
+
+.aside-senior-remote {
+    border: 1px solid rgb(197, 193, 187);
+}
+
+.aside-linked {
+    font-size: 20px;
+    margin-top: 1em;
+    margin-bottom: 2em;
+}
+
+.aside-zero {
+    background:rgb(183,189,189);
+    color: black;
+    margin-right: 10px;
+    padding: 10px;
+    border: 1px solid white;
+    border-radius: 4px;
+}
+
+.aside-archo {
+    text-decoration: none;
+    color: blue;
+}
+
+.aside-nine {
+    background: green;
+    color: white;
+    padding: 10px;
+    border: 1px solid white;
+    border-radius: 4px;
+    margin-right: 10px;
+
+}
+
+
+.production {
+    display: flex;
+}
+
+.search-icon {
+    display: none;
+}
+
+
+/* ------- media query stuff start here */
+
+/* --------------- for small diveces (landscape phone)--------- */
+/* 
+@media (min-width: 576px){
+    body {
+        background: aqua;
+    }
+} */
+
+/* ----------for medium devices (tablets) -----------*/
+
+/* @media (min-width: 768px) {
+    body {
+        background: red;
+    }
+} */
+
+
+/* -----------for large devices (desktop)---------- */
+/* 
+@media (min-width:992px){
+    body {
+        background: yellow;
+    }
+} */
+
+/* ----------for larger devices---------- */
+/* 
+@media (min-width:1200px){
+    body{
+        background: green;
+    }
+} */
+
+
+@media screen and (max-width: 1059px){
+    .search{
+        width: 35em;
+    }
+}
+
+@media screen and (max-width: 928px) {
+    .search{
+        width: 25em;
+    }
+}
+
+@media screen and (max-width: 792px) {
+    .search{
+        width: 15em;
+    }
+    .section-container-flex {
+        display: none;
+    }
+}
+
+
+@media screen and (max-width: 658px) {
+    .search{
+        display: none;
+    }
+
+    .search-icon {
+        display: inline-block;
+    }
+}
+
+@media screen and (max-width: 1118px) {
+    .container-section-aside-right {
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .container-section {
+        width: 80%;
+    }
+
+    .aside-right {
+        width: 80%;
+    }
+}
+
+@media screen and (max-width: 678px){
+    .aside-main-flex {
+        flex-direction: column;
+    }
+
+    .aside-main-flex {
+        width: 100%;
+    }
+}
+
